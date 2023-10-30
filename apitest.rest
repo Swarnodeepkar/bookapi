@@ -1,0 +1,33 @@
+###
+POST http://localhost:8000/book
+Content-Type: application/json
+
+{
+  "Title":"Famous Five",
+  "Author":"Ryan Gosling",
+  "Summary":"Mysterious And Kller Story"
+}
+
+####
+
+GET http://localhost:8000/book
+
+####
+GET http://localhost:8000/book/653fce462963623e1b4f60b9
+
+
+####
+
+DELETE http://localhost:8000/book/653fca1b53abd41fab0c7599
+
+####
+PUT http://localhost:8000/book
+Content-Type: application/json
+
+{
+  "Title":"Harry Potter",
+  "Author":"Rowling",
+  "Summary":"Mysterious and thriller Story",
+  "id":"653fce462963623e1b4f60b9"
+}
+
